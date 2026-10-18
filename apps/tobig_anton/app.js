@@ -260,7 +260,7 @@
         drawTimeout = undefined;
         if (revertTimeout) clearTimeout(revertTimeout);
         revertTimeout = undefined;
-        Bangle.removeListener("lcdPower", onLcd);
+        Bangle.removeListener("backlight", onLcd);
         delete Graphics.prototype.setFontAnton;
       },
       redraw: () => {
