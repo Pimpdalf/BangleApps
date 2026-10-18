@@ -3,7 +3,7 @@
   "shortName":"presetT",
   "icon": "app.png",
   "version":"0.01",
-  "author":"tobig",
+  "author":"Pimpdalf",
   "description": "Set timer with predefined times.",
   "tags": "",
   "supports": ["BANGLEJS2"],
