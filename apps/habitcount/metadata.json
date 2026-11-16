@@ -1,0 +1,15 @@
+{ "id": "habitcount",
+  "name": "habit counter",
+  "shortName":"habitcount",
+  "version":"0.01",
+  "author": "tobig",
+  "description": "Tracks habits",
+  "icon": "app.png",
+  "tags": "",
+  "supports" : ["BANGLEJS2"],
+  "readme": "README.md",
+  "storage": [
+    {"name":"habitcount.app.js","url":"app.js"},
+    {"name":"habitcount.img","url":"app-icon.js","evaluate":true}
+  ]
+}
